@@ -1,7 +1,7 @@
 <?php
 
 $servername = "localhost";
-$database = "napay";
+$database = "napays";
 $user = "root";
 $pass = "";
 
