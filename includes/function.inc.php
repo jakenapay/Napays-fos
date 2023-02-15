@@ -31,9 +31,10 @@ function login($conn, $username, $password)
                 $_SESSION['username'] = $row['username'];
                 $_SESSION['password'] = $row['password'];
                 $_SESSION['address'] = $row['address'];
-            }
 
-            
+                header("location: ../index.php");
+                exit();
+            }
         }
     }
 }
